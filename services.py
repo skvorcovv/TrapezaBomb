@@ -33,7 +33,7 @@ def check(sent, sms):
 def time(sent):
     a = datetime.datetime.now()
     time = (str(a.hour) + ':' + str(a.minute) + ':' +str(a.second))
-    msg1 = f"{green}{bold}{str(sent)}{end} sms sent!"
+    msg1 = f"{green}{bold}{str(sent)}{end} смс отправлено!"
     msg2 = f"{green}{bold}{str(time)}{end}"
     if int(sent) < 10:
     	print(f"{msg1}         {msg2}")
@@ -52,9 +52,9 @@ def attack(number, sms):
     number_plus7 = str(+7) + number
     number_8 = str(8) + number
     sent = 0
-    print("-" * 33)
-    print(f"|  {green}{bold}  amount   {end} | {green}{bold}     time     {end} |")
-    print("-" * 33)
+    print("^" * 33)
+    print(f"|  {green}{bold}  Количество   {end} / {green}{bold}     Время     {end} |")
+    print("%" * 33)
     HEADERS = random.choice(heads)
     while sent <= sms:
     	try:
