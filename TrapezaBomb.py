@@ -1,7 +1,5 @@
 import requests
 import datetime
-import services
-from services import banner1an
 
 #colours
 green     = '\033[92m'
