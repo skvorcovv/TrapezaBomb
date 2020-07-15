@@ -53,7 +53,7 @@ def attack(number, sms):
     number_8 = str(8) + number
     sent = 0
     print("^" * 33)
-    print(f"|  {green}{bold}  Количество   {end} / {green}{bold}     Время     {end} |")
+    print(f"|  {green}{bold}  Количество   {end} / {green}{bold}  Время  {end} |")
     print("%" * 33)
     HEADERS = random.choice(heads)
     while sent <= sms:
