@@ -11,7 +11,19 @@ underline = '\033[4m'
 end       = '\033[0m'
 red       = '\033[91m'
 
- print(banner1an())
+print(':s/+yooy/                ```        ````       `````...                       ``              
+      :. `M` `.-/syhhy`        `+mo       .+hNmoys`  .mo:--:d:       oso+///yy.     .dd.            
+         .M`     mM/`Nh`        s+m.        -MN -No   m:    .-       o-   .y+       -ods            
+         -M`    `mN- sM:       -s`dy `..`   -NN -Nm` .N:`            `  `oo`        y./N- `.`       
+         /M.    `Nd  oMh       h- yMo-:/oy- .mN.yMh` /Mo--////         :y-         :y -Nm:-/+y+     
+         oM:    .Nh`/dh:      /M+++Nd +h+d/ `dN+-`   +M:             -y+          `dh/+hM:.hoom     
+         yM+    :Nh++        .my   hM/  ``  `hd      yM: /dys:     `sh.       .   oM-  -Md  ```     
+         yMs    /N- +`       sM/   +Mh`      hy      NM:    .do   /my`     .-++  -Nd   `mM:         
+        /NMh`   /d. .y `:++`/mN    `MM-      ho     -MMy+/--+dy :dMMhhdmNMMMMMy -yN+    sMh`        
+       -----.   +h`  d/-d+N`  ..   `hMh`   `.do`    `````````  `///:-..````..-/:  `-    :MM:        
+               ./+:` +N-.om`        oyy+.  .---.                                        .hys:       
+                     `hds:')                                                                         
+)
 
 #header
 print(f"{green}{bold}\t\t{underline}[Bomber by Trapeza]{end}")
