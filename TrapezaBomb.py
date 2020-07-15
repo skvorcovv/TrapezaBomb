@@ -1,5 +1,6 @@
 import requests
 import datetime
+import services
 
 #colours
 green     = '\033[92m'
@@ -13,7 +14,7 @@ print('``:+///+o////o-./s+//////-`````````-s.```````./s///////.``-+o///////o.`+/
 print(f"{green}{bold}\t\t{underline}[Bomber by Trapeza]{end}")
 
 print()
-print(f"{bold}Код от{end}", end="")
+print(f"{bold}Код от {end}", end="")
 print(f"{cyan}{bold}Вадика{end}")
 
 print(f"{bold}vk{end}", end = "")
@@ -22,12 +23,12 @@ print(f"{cyan}{bold}@lo_se{end}")
 print()
 
 #inputs
-print('Напишите номер без (8) или с (+7)\nexample: 9018017010')
+print('Напишите номер без + (8) или с + (+7)\nнапример: 9018017010')
 input_number = input(green + bold + '>> ' + end)
 print('Сколько смс отправить?')
 sms = int(input(green + bold + '>> ' + end))
 
-print(f"Вам нужна{cyan} анонимность{end}y/n? ")
+print(f"Вам нужна {cyan} анонимность {end} y/n ? ")
 is_tor = input(bold + green + ">> " + end)
 
 
