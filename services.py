@@ -2,27 +2,10 @@ import random
 import requests
 import datetime
 
-def banner1an():
-    start_time = time.time()
-    CLOSE_AFTER = kol2
-    banner1 = """
-                                                                                                        
-      :s/+yooy/                ```        ````       `````...                       ``              
-      :. `M` `.-/syhhy`        `+mo       .+hNmoys`  .mo:--:d:       oso+///yy.     .dd.            
-         .M`     mM/`Nh`        s+m.        -MN -No   m:    .-       o-   .y+       -ods            
-         -M`    `mN- sM:       -s`dy `..`   -NN -Nm` .N:`            `  `oo`        y./N- `.`       
-         /M.    `Nd  oMh       h- yMo-:/oy- .mN.yMh` /Mo--////         :y-         :y -Nm:-/+y+     
-         oM:    .Nh`/dh:      /M+++Nd +h+d/ `dN+-`   +M:             -y+          `dh/+hM:.hoom     
-         yM+    :Nh++        .my   hM/  ``  `hd      yM: /dys:     `sh.       .   oM-  -Md  ```     
-         yMs    /N- +`       sM/   +Mh`      hy      NM:    .do   /my`     .-++  -Nd   `mM:         
-        /NMh`   /d. .y `:++`/mN    `MM-      ho     -MMy+/--+dy :dMMhhdmNMMMMMy -yN+    sMh`        
-       -----.   +h`  d/-d+N`  ..   `hMh`   `.do`    `````````  `///:-..````..-/:  `-    :MM:        
-               ./+:` +N-.om`        oyy+.  .---.                                        .hys:       
-                     `hds:                                                                          
 
 #colours
 green     = '\033[92m'
-cyan      = '\033[97m'
+cyan      = '\033[95m'
 bold      = '\033[1m'
 underline = '\033[4m'
 end       = '\033[0m'
@@ -69,9 +52,9 @@ def attack(number, sms):
     number_plus7 = str(+7) + number
     number_8 = str(8) + number
     sent = 0
-    print(":" * 33)
-    print(f"/  {green}{bold}  Количество смс   {end} / {green}{bold}     Время отправки     {end} /")
-    print(":" * 33)
+    print("-" * 33)
+    print(f"|  {green}{bold}  amount   {end} | {green}{bold}     time     {end} |")
+    print("-" * 33)
     HEADERS = random.choice(heads)
     while sent <= sms:
     	try:
